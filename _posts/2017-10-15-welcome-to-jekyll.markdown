@@ -19,5 +19,5 @@ Check out my github page here: [andrei-rusu][andrei-git]. <br>
 Alternatively, visit [MyCV][andrei-cv] webpage.
 
 [andrei-git]: https://github.com/andrei-rusu
-[andrei-cv]: https://andrei-rusu.io/MyCV
+[andrei-cv]: https://andrei-rusu.github.io/MyCV
 
