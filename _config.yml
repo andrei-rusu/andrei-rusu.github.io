@@ -19,8 +19,7 @@ email: rusu.c.andrei@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Oops...This page is still under construction.
 baseurl: "/"
-url: "http://www.google.com"
-twitter_username: None
+url: "https://andrei-rusu.github.io"
 github_username:  andrei-rusu
 
 # Build settings
