@@ -5,14 +5,11 @@ date:   2017-10-15 20:07:49 +0100
 categories: jekyll update
 ---
 Welcome stranger to my website!
-I did not write this code:
+I did <a href="/secret">not</a> write this code:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight python %}
+def bored():
+	print("How bored can you be to actually read this?")
 {% endhighlight %}
 
 Check out my github page here: [andrei-rusu][andrei-git]. <br>

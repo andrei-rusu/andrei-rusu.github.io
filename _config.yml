@@ -13,11 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Andrei's Page
+title: "<a href='/' style='text-decoration:none; color: white'> Andrei's Playground </a>"
 author: Andrei Rusu
 email: rusu.c.andrei@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Oops...This page is still under construction.
+description: # this means to ignore newlines until "baseurl:"
+    Thank you for visiting my playground! <br /><br />
+
+    My name is <a href="/MyCV">Andrei Rusu</a> and I am an enthusiastic PhD student in Artificial Intelligence with good knowledge of computer architecture, 
+    passion for machine learning and data analysis, keen interest in revolutionary technologies, and eagerness for new experiences. <br /><br />
+
+    This page is not just a personal blog, it is meant to be a map into my world!
 baseurl: "/"
 url: "https://andrei-rusu.github.io"
 github_username:  andrei-rusu
@@ -27,6 +32,14 @@ markdown: kramdown
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+  # parse markdown inside block-level HTML tag
+  parse_block_html: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
